@@ -10,8 +10,8 @@
             <?php
 
 // google recaptcha
-$public_key = '6LdGGLUUAAAAAA5Dilsiyiwo3Q-pgYCBv3Cqj4PP';
-$private_key = '6LdGGLUUAAAAAL336PfRvA1fSe6uJRNplBt8dlz7';
+$public_key = '';
+$private_key = '';
 $url = "https://www.google.com/recaptcha/api/siteverify";
 
 if (isset($_POST['resend'])) {
