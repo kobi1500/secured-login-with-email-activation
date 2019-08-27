@@ -15,8 +15,8 @@ $mail->SMTPSecure = "ssl";
 $mail->Username = "";
 $mail->Password = "";
 
-$mail->setFrom("kobi6255@gmail.com");
-$mail->addReplyTo("kobi6255@gmail.com");
+$mail->setFrom("");
+$mail->addReplyTo("");
 
 // recipient
 
